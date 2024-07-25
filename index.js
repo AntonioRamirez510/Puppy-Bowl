@@ -18,6 +18,6 @@ getPlayers();
 
 const displayPlayerDetails = (player)=>{
 player.forEach(detail => {
-  const detailDropDown = 
+  const detailDropDown = document.createElement(`li`);
 })
 }
